@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, sans-serif;
+  
+  --color-burgundy: #420312;
+  --color-burgundy-light: #5d071c;
+  --color-burgundy-dark: #24010a;
+  --color-gold: #d4af37;
+  --color-gold-muted: #c5a880;
+  --color-gold-hover: #e5cda9;
+  --color-charcoal: #140b0d;
+  --color-luxury-black: #0b0507;
+  --color-rich-brown: #1a0f12;
+  --color-warm-white: #faf6f3;
+  --color-soft-gray: #a6989b;
+}
+
+/* Custom Fine-Art Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-luxury-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-burgundy-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-muted);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-luxury-black);
+  color: var(--color-warm-white);
+  font-family: var(--font-sans);
+}
+
+.font-luxury {
+  font-family: var(--font-serif);
+}
+
+/* Masonry Column settings */
+.masonry-grid {
+  display: flex;
+  margin-left: -1.5rem; /* -gap */
+  width: auto;
+}
+.masonry-col {
+  padding-left: 1.5rem; /* gap */
+  background-clip: padding-box;
+}
+
+/* Luxury card-glow effects */
+.luxury-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.04);
+}
+.luxury-glow:hover {
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.08);
+}
