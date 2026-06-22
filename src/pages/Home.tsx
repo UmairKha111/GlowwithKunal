@@ -146,7 +146,7 @@ export default function Home() {
               
               <div className="relative border border-gold/20 p-2.5 bg-rich-brown/50">
                 <img
-                  src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800"
+                  src="https://i.ibb.co/99k86KNw/5ef787c2-a3f2-4651-ad40-0f4fa5557933.png"
                   alt="Kunal Makeup Session Work"
                   className="w-full h-auto object-cover border border-burgundy/20"
                   referrerPolicy="no-referrer"
